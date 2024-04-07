@@ -1,5 +1,5 @@
 [ 𝐒𝐈𝐆𝐌𝐀 𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓 𝐏𝐑𝐎𝐓𝐄𝐂𝐓𝐄𝐑 ] 
-TELEGRAM(https://t.me/Sigma_Byz)
+
   <img src="https://mallucampaign.in/images/img_1712476808.jpg">
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
