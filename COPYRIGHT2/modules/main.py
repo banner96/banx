@@ -23,7 +23,7 @@ from pyrogram.errors import FloodWait
 
 start_txt = """<b> ʜᴇʏ, 🦍 </b>
  
-</b>「 ⌜ 𝐍𝐎𝐁𝐈𝐓𝐀 x 𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓 ⌟ 」 </b>
+     </b>「 ⌜ 𝐍𝐎𝐁𝐈𝐓𝐀 x 𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓 ⌟ 」 </b>
  
 𖤍 ɪ ᴀᴍ ɴᴏʙɪᴛᴀ , ᴛʜᴇ ᴡᴀʏɴᴇ ɢᴀɴɢ ᴛʜᴇᴍᴇ ʙᴏᴛ ғᴏʀ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
@@ -50,8 +50,8 @@ async def start(_, msg):
 
 gd_buttons = [              
         [
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/yakuza_support_chat"),    
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/yakuza_support_chat"),    
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/yakuza_support_chat"),    
         ]
         ]
 
