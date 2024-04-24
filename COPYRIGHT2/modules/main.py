@@ -42,7 +42,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://mallucampaign.in/images/img_1712478935.jpg",
+        photo="https://mallucampaign.in/images/img_1713972278.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -50,8 +50,8 @@ async def start(_, msg):
 
 gd_buttons = [              
         [
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/yakuza_support_chat"),    
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/yakuza_support_chat"),    
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/NOBIXCOPYRIGHT1"),    
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/NOBIXCOPYRIGHT"),    
         ]
         ]
 
