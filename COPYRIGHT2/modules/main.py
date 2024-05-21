@@ -23,9 +23,9 @@ from pyrogram.errors import FloodWait
 
 start_txt = """<b> ʜᴇʏ, 🦍 </b>
  
-     </b>「 ⌜ 𝐍𝐎𝐁𝐈𝐓𝐀 x 𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓 ⌟ 」 </b>
+     </b>「 ⌜ 𝐆𝐎𝐉𝐎 ꭙ 𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓 ⌟ 」 </b>
  
-𖤍 ɪ ᴀᴍ ɴᴏʙɪᴛᴀ , ᴛʜᴇ ᴡᴀʏɴᴇ ɢᴀɴɢ ᴛʜᴇᴍᴇ ʙᴏᴛ ғᴏʀ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+𖤍 ɪ ᴀᴍ ɢᴏᴊᴏ , ᴛʜᴇ ᴡᴀʏɴᴇ ɢᴀɴɢ ᴛʜᴇᴍᴇ ʙᴏᴛ ғᴏʀ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
 𒊹︎︎︎ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴀᴠᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ ᴄʜᴀɴɴᴇʟs ᴛʜᴇɴ ᴀᴅᴅ ᴍᴇ ɪ ᴀᴍ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ. !"""
 
@@ -42,7 +42,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://mallucampaign.in/images/img_1713972278.jpg",
+        photo="https://telegra.ph/file/61bdc07a29012176c9f28.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -50,8 +50,8 @@ async def start(_, msg):
 
 gd_buttons = [              
         [
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/NOBIXCOPYRIGHT1"),    
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/NOBIXCOPYRIGHT"),    
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/GOJOXCOPYRIGHT"),    
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/GOJOXCOPYRIGHT"),    
         ]
         ]
 
@@ -160,7 +160,7 @@ async def keep_reaction_message(client, message: Message):
 
 async def delete_pdf_files(client, message):
     if message.document and message.document.mime_type == "application/pdf":
-        warning_message = f"@{message.from_user.username} ᴍᴀᴀ ᴍᴀᴛ ᴄʜᴜᴅᴀ ᴘᴅғ ʙʜᴇᴊ ᴋᴇ,\n ʙʜᴏsᴀᴅɪᴋᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀɢʏᴇɢᴀ \n\n ᴅᴇʟᴇᴛᴇ ᴋᴀʀ ᴅɪʏᴀ ᴍᴀᴅᴀʀᴄʜᴏᴅ.\n\n ᴀʙ @mr_harsh_zs2 ʙʜᴀɪ ᴋᴇ ᴅᴍ ᴍᴇ ᴀᴘɴɪ ᴍᴜᴍᴍʏ ᴋᴏ ʙʜᴇᴊ ᴅᴇ 🍌🍌🍌."
+        warning_message = f"@{message.from_user.username} ᴍᴀᴀ ᴍᴀᴛ ᴄʜᴜᴅᴀ ᴘᴅғ ʙʜᴇᴊ ᴋᴇ,\n ʙʜᴏsᴀᴅɪᴋᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀɢʏᴇɢᴀ \n\n ᴅᴇʟᴇᴛᴇ ᴋᴀʀ ᴅɪʏᴀ ᴍᴀᴅᴀʀᴄʜᴏᴅ.\n\n ᴀʙ ʙʜᴀɪ ᴋᴇ ᴅᴍ ᴍᴇ ᴀᴘɴɪ ᴍᴜᴍᴍʏ ᴋᴏ ʙʜᴇᴊ ᴅᴇ 🍌🍌🍌."
         await message.reply_text(warning_message)
         await message.delete()
     else:  
