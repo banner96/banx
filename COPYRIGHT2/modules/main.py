@@ -23,9 +23,9 @@ from pyrogram.errors import FloodWait
 
 start_txt = """<b> ʜᴇʏ, 🦍 </b>
  
-     </b>「 ⌜ 𝐆𝐎𝐉𝐎 ꭙ 𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓 ⌟ 」 </b>
+     </b>「 ⌜ banner ꭙ 𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓 ⌟ 」 </b>
  
-𖤍 ɪ ᴀᴍ ɢᴏᴊᴏ , ᴛʜᴇ ᴡᴀʏɴᴇ ɢᴀɴɢ ᴛʜᴇᴍᴇ ʙᴏᴛ ғᴏʀ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+𖤍 ɪ ᴀᴍ banner , ᴛʜᴇ ᴡᴀʏɴᴇ ɢᴀɴɢ ᴛʜᴇᴍᴇ ʙᴏᴛ ғᴏʀ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
 𒊹︎︎︎ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴀᴠᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ ᴄʜᴀɴɴᴇʟs ᴛʜᴇɴ ᴀᴅᴅ ᴍᴇ ɪ ᴀᴍ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ. !"""
 
@@ -51,7 +51,7 @@ async def start(_, msg):
 gd_buttons = [              
         [
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/GOJOXCOPYRIGHT"),    
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/GOJOXCOPYRIGHT"),    
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/+B06608OLQ_JiOWVl"),    
         ]
         ]
 
@@ -113,7 +113,7 @@ async def activevc(_, message: Message):
 
 
 
-FORBIDDEN_KEYWORDS = ["baap", "beta", "Batichod", "hydrogen", "energy", "Gand", "papa", "porn", "xxx", "sex", "Bahenchod", "XII", "page", "Madarchod", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt"]
+FORBIDDEN_KEYWORDS = ["baap", "🅐‌» 🄰🄻🄻🄴🄽 🅲🅻🅰️🆂🆂🆁🅾️🅾️🅼 🅲🅾️🅽🆃🅰️🅲🆃", "beta", "Batichod", "hydrogen", "energy", "Gand", "papa", "porn", "xxx", "sex", "Bahenchod", "XII", "page", "Madarchod", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt"]
 
 @app.on_message()
 async def handle_message(client, message):
