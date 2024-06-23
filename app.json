@@ -1,7 +1,7 @@
 {
   "name": "telegram-bot-app",
   "description": "Telegram Bot using Pyrogram",
-  "repository": "https://github.com/Shamim077/Protection",
+  "repository": "https://github.com/banner96/banx",
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
